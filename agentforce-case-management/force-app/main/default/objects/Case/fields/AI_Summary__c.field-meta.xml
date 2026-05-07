@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Summary__c</fullName>
+    <description>Stores the AI-generated summary of the customer support case produced by Agentforce. Used to help support agents quickly understand the issue and reduce manual review time.</description>
+    <inlineHelpText>AI generated summary created by Agentforce based on case description and customer context.</inlineHelpText>
+    <label>AI Summary</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

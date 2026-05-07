@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Category__c</fullName>
+    <description>Stores the AI-recommended case category based on analysis of the case description and related customer context. Used for intelligent case classification and routing.</description>
+    <label>AI Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>Technical Support</fullName>
+                <default>false</default>
+                <label>Technical Support</label>
+            </value>
+            <value>
+                <fullName>Account Access</fullName>
+                <default>false</default>
+                <label>Account Access</label>
+            </value>
+            <value>
+                <fullName>Order Issue</fullName>
+                <default>false</default>
+                <label>Order Issue</label>
+            </value>
+            <value>
+                <fullName>General Inquiry Escalation</fullName>
+                <default>false</default>
+                <label>General Inquiry Escalation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
