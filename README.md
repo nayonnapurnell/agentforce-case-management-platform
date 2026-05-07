@@ -13,3 +13,4 @@ An AI-powered Salesforce Case Management platform that:
 - Handles errors and retries
 - Scales for high-volume processing
 
+<img width="1536" height="1024" alt="Agentforce Case Management Architecture Diagram" src="https://github.com/user-attachments/assets/efec8a0c-0bad-44dc-b6c6-a32d531a0e86" />
