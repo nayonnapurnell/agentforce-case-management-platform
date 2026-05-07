@@ -1,4 +1,4 @@
-# agentforce-case-management-platform
+# Agentforce Case Management Platform
 A Salesforce case management system that uses Agentforce to assist with case triage, summarization, routing, and integration workflows.
 
 # Project Overview
