@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Integration_Status__c</fullName>
-    <description>Tracks the current status of the external system integration process for the case. Used for monitoring asynchronous processing and troubleshooting failures.</description>
-    <label>Integration Status</label>
+    <fullName>Processing_Status__c</fullName>
+    <label>Processing Status</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
@@ -13,34 +12,29 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Pending</fullName>
+                <fullName>New</fullName>
                 <default>false</default>
-                <label>Pending</label>
+                <label>New</label>
             </value>
             <value>
-                <fullName>Processing</fullName>
+                <fullName>AI Processing</fullName>
                 <default>false</default>
-                <label>Processing</label>
+                <label>AI Processing</label>
             </value>
             <value>
-                <fullName>Success</fullName>
+                <fullName>Integration Processing</fullName>
                 <default>false</default>
-                <label>Success</label>
+                <label>Integration Processing</label>
             </value>
             <value>
-                <fullName>Failed</fullName>
+                <fullName>Completed</fullName>
                 <default>false</default>
-                <label>Failed</label>
+                <label>Completed</label>
             </value>
             <value>
-                <fullName>Retrying</fullName>
+                <fullName>Error</fullName>
                 <default>false</default>
-                <label>Retrying</label>
-            </value>
-            <value>
-                <fullName>Queued</fullName>
-                <default>false</default>
-                <label>Queued</label>
+                <label>Error</label>
             </value>
         </valueSetDefinition>
     </valueSet>
