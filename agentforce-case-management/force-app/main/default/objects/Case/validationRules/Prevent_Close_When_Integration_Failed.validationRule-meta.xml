@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Close_When_Integration_Failed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;Closed&quot;),
+ISPICKVAL(Integration_Status__c, &quot;Failed&quot;)
+)</errorConditionFormula>
+    <errorMessage>Cases with failed integrations cannot be closed.</errorMessage>
+</ValidationRule>
