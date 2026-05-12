@@ -37,6 +37,11 @@
                 <default>false</default>
                 <label>General Inquiry Escalation</label>
             </value>
+            <value>
+                <fullName>Escalation</fullName>
+                <default>false</default>
+                <label>Escalation</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
